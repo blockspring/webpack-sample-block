@@ -1,0 +1,20 @@
+{
+  "id": "webpack-sample-block",
+  "user": "jtokoph",
+  "title": "Webpack Sample Block",
+  "description": "",
+  "parameters": [
+    {
+      "type": "number",
+      "label": "Age",
+      "name": "age",
+      "help_text": "Enter your age.",
+      "default": 26
+    }
+  ],
+  "is_public": true,
+  "is_open_source": true,
+  "language": "js",
+  "updated_at": 1455058889,
+  "created_at": 1455058834
+}

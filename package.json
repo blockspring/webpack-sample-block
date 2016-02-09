@@ -1,0 +1,20 @@
+{
+  "name": "webpack-sample-block",
+  "version": "1.0.0",
+  "description": "",
+  "main": "block.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo '{\"age\":23}' | node block.js",
+    "go": "npm run build && npm run test"
+  },
+  "author": "Jason Tokoph <jason@blockspring.com>",
+  "license": "MIT",
+  "dependencies": {
+    "blockspring": "0.0.6",
+    "node-snowflake": "0.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.13"
+  }
+}
